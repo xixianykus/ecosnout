@@ -1,122 +1,156 @@
 body {
-	margin:0;
-	padding:20px 0; padding-bottom:500px;
-	background: #C7D5B4 url(images/background.jpg) no-repeat fixed;
-	color:#fff;
+	margin: 0;
+	padding: 20px 0 500px;
+	background: #C7D5B4 url("images/background.jpg") no-repeat fixed;
+	font-family: georgia, 'times new roman', serif;
+	color: #fff;
 }
-  h1 {
-	width:933px; height:182px;
-	background: url(images/ecosnoutheader.jpg);
-	margin:0;
+
+h1 {
+	width: 933px;
+	height: 182px;
+	background: url("images/ecosnoutheader.jpg");
+	margin: 0;
 }
-  h1 span {
-	display:none
+
+h1 span {
+	display: none;
 }
-  h2 {
-	font-family: georgia, "courier new", "lucida sans unicode", "new york", "times new roman", serif; font-size:170%;
-	font-weight:normal;
-	letter-spacing:3px;
-	font-variant:small-caps;
-	color:#AFBBBE;
-	padding-bottom:.2em;
-	margin-left: -39px; margin-bottom:0em;
-	height:25px;
-	background: url(images/welcome.gif) no-repeat;
+
+h2 {
+	font-size: 170%;
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-variant: small-caps;
+	color: #AFBBBE;
+	padding-bottom: 0.2em;
+	margin-left: -39px;
+	margin-bottom: 0;
+	height: 25px;
+	background: url("images/welcome.gif") no-repeat;
 }
 
 h2 span {
-	display:none;
+	display: none;
 }
 
-  h3 {
+body.boutdsnouts h2 {
+	background: url("images/boutdsnouts.gif") no-repeat;
+}
+
+body.whatsonthesnoutbox h2 {
+	background: url("images/whatsonthesnoutbox.gif") no-repeat;
+}
+
+body.yosnouters h2 {
+	background: url("images/yosnouters.gif") no-repeat;
+}
+
+h3 {
+	display: inline-block;
 	color: #AFBBBE;
-	font-weight:normal;
-	text-transform:uppercase;
-	margin:2em auto .3em auto;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 2em auto 0.3em;
 	font-size: 1.0em;
-	text-decoration:underline;
-	letter-spacing:2px;
+	border-bottom: solid 2px;
+	padding-bottom: 3px;
+	letter-spacing: 2px;
 }
 
-  p, li {
-	font-family: georgia, tahoma, "lucida sans unicode",verdana, geneva, arial, sans-serif; font-size:.85em;
-	margin:0;
-	text-indent:1.5em;
-	line-height:1.7em;
-	color:#C4C9BD;
-	text-align:justify;
+li,
+p {
+	font-size: 0.9em;
+	margin: 0;
+	text-indent: 1em;
+	line-height: 1.7em;
+	color: #C4C9BD;
+	text-align: justify;
 }
 
-  li {
-	text-indent:0;
-	text-align:left;
+li {
+	text-indent: 0;
+	text-align: left;
 }
 
-  .first {
-	text-indent:0
+.friends {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-  div.hr hr {
-	display:none;
+h3 + p,
+p:first-of-type {
+	text-indent: 0;
 }
 
-  div.hr {
+div.hr hr {
+	display: none;
+}
+
+div.hr {
 	height: 33px;
-	background: #6B725F url(images/divider.gif) no-repeat center;
-	margin:1.5em auto 2.5em auto;
+	background: #6B725F url("images/divider.gif") no-repeat center;
+	margin: 1.5em auto 2.5em;
 }
 
-  .hatching {
-	height:8px;
-	background: url(images/hatching.png);
-	margin:0 auto 1em auto;
+.hatching {
+	height: 8px;
+	background: url("images/hatching.png");
+	margin: 0 auto 1em;
 }
 
-  a:link, a:visited {
+a:link,
+a:visited {
 	color: #c4c9bd;
 }
 
-  a:hover {
-	color:#ff80c0
+a:hover {
+	color: #ff80c0;
 }
 
- #container {
-	background: url(images/repeaterbackground.gif) repeat-y;
-	width:933px;
-	margin-bottom:6em;
+#container {
+	background: url("images/repeaterbackground.gif") repeat-y;
+	width: 933px;
+	margin-bottom: 6em;
 }
 
-  #dogleg {
-	margin:0;
-	float:right;
-	height:87px; width:133px;
-	background: url(images/dogleg.gif);
+#dogleg {
+	margin: 0;
+	float: right;
+	height: 87px;
+	width: 133px;
+	background: url("images/dogleg.gif");
 }
-  #footer {
-	width:906px; height:49px;
-	background: url(images/footer.jpg);
+
+#footer {
+	width: 906px;
+	height: 49px;
+	background: url("images/footer.jpg");
 	position: relative;
 	/* border: solid 1px; */
 }
 
-  .textbox {
-	margin-left:251px; margin-right:207px;
-	padding-bottom:35px;
+.textbox {
+	margin-left: 251px;
+	margin-right: 207px;
+	padding-bottom: 35px;
 	/* outline: 1px solid; */
 }
 
-  #footer a {
+#footer a {
 	box-sizing: border-box;
 	display: inline-block;
-	font-family:tahoma, verdana, geneva, arial, sans-serif; font-size:8px;
-	text-transform:uppercase;
-	text-align:center;
-	border:solid 1px #AEBABD;
-	padding:3px;
-	letter-spacing:1px;
-	color:#ccc;
+	font-family: tahoma, verdana, geneva, arial, sans-serif;
+	font-size: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	border: solid 1px #AEBABD;
+	padding: 3px;
+	letter-spacing: 1px;
+	color: #ccc;
 	background: #7B5E5E;
-	text-decoration:none
+	text-decoration: none;
 }
 
 #footer a:first-of-type {
@@ -125,81 +159,91 @@ h2 span {
 	width: 65px;
 	top: -15px;
 }
+
 #footer a:last-of-type {
 	position: absolute;
 	right: 20px;
 	top: -15px;
-	padding:	10px 3px;
+	padding: 10px 3px;
 	width: 45px;
 }
 
-  #footer a:hover {
-	background:#B05253
+#footer a:hover {
+	background: #B05253;
 }
-
-
-
-
 /************  menu stuff here *************/
-
-
-  .navcontainer {
-	position:absolute; top:101px; left:0;
-	width:122px; height:200px;
+.navcontainer {
+	position: absolute;
+	top: 101px;
+	left: 0;
+	width: 122px;
+	height: 200px;
 }
 
-  .navcontainer ul, navcontainer li {
-	list-style:none;
-	margin:0; padding:0;
+.navcontainer ul,
+navcontainer li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-  .navcontainer li span {
-	display:none;
+.navcontainer li span {
+	display: none;
 }
 
-  #home a {
-	position:absolute; top:0px; left:0px;
-	display:block;
-	width:122px; height:37px;
-	background: url(images/home.gif) 122px 0;
+#home a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 122px;
+	height: 37px;
+	background: url("images/home.gif") 122px 0;
 }
 
-  #about a {
-	position:absolute; top:37px; left:0px;
-	display:block;
-	width:122px; height:38px;
-	background: url(images/about.gif) 122px 0px;
+#about a {
+	position: absolute;
+	top: 37px;
+	left: 0;
+	display: block;
+	width: 122px;
+	height: 38px;
+	background: url("images/about.gif") 122px 0;
 }
 
-  #whatson a {
-	position:absolute; top:75px; left:0px;
-	display:block;
-	width:122px; height:52px;
-	background: url(images/whatson.gif) 122px 0px;
+#whatson a {
+	position: absolute;
+	top: 75px;
+	left: 0;
+	display: block;
+	width: 122px;
+	height: 52px;
+	background: url("images/whatson.gif") 122px 0;
 }
 
-  #contact a {
-	position:absolute; top:127px; left:0px;
-	display:block;
-	width:122px; height:44px;
-	background: url(images/contact.gif) 122px 0px;
+#contact a {
+	position: absolute;
+	top: 127px;
+	left: 0;
+	display: block;
+	width: 122px;
+	height: 44px;
+	background: url("images/contact.gif") 122px 0;
 }
 
-  .navcontainer #home a:hover {
-	background: url(images/home.gif) 0px 0px;
-}
-  .navcontainer #about a:hover {
-	background: url(images/about.gif) 0px 0px;
-}
-  .navcontainer #whatson a:hover {
-	background: url(images/whatson.gif) 0px 0px;
-}
-  .navcontainer #contact a:hover {
-	background: url(images/contact.gif) 0px 0px;
+.navcontainer #home a:hover {
+	background: url("images/home.gif") 0 0;
 }
 
+.navcontainer #about a:hover {
+	background: url("images/about.gif") 0 0;
+}
 
+.navcontainer #whatson a:hover {
+	background: url("images/whatson.gif") 0 0;
+}
 
-
-
+.navcontainer #contact a:hover {
+	background: url("images/contact.gif") 0 0;
+}
 /*********  validation   ***************/
